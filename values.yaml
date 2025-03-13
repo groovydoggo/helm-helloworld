@@ -8,3 +8,7 @@ replicaCount: 2
 service:
   type: ClusterIP
   port: 80
+
+ingress:
+  enabled: true
+  host: helming-test.local
